@@ -5,3 +5,19 @@ CURRENT_DIR=${PWD}
 echo "pwd is $PWD"
 echo "BUILD_DIR is $1"
 echo "CACHE_DIR is $2"
+
+# Counting objects: 5, done.
+# Writing objects: 100% (3/3), 237 bytes | 0 bytes/s, done.
+# Total 3 (delta 0), reused 0 (delta 0)
+
+# -----> Fetching custom git buildpack... done
+# -----> README.md exists app detected
+# pwd is /app/tmp/repo.git
+# BUILD_DIR is /tmp/build_7b927718-94a7-4970-883a-75a42d698a2c
+# CACHE_DIR is /app/tmp/cache
+# -----> Discovering process types
+#        Procfile declares types -> (none)
+
+# -----> Compiled slug size: 0K
+# -----> Launching... done, v5
+#        http://my-heroku-buildpack-test.herokuapp.com deployed to Heroku
