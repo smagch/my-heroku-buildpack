@@ -2,9 +2,14 @@
 # Usage: bin/compile <build-dir> <cache-dir>
 
 CURRENT_DIR=${PWD}
+
 echo "pwd is $PWD"
 echo "BUILD_DIR is $1"
 echo "CACHE_DIR is $2"
+
+LS_APP=`ls -al /app`
+echo "ls -al"
+echo "${LS_APP}"
 
 # Counting objects: 5, done.
 # Writing objects: 100% (3/3), 237 bytes | 0 bytes/s, done.
