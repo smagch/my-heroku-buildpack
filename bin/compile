@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 # Usage: bin/compile <build-dir> <cache-dir>
 
-echo 'compile ok?'
+CURRENT_DIR=${PWD}
+echo "pwd is $PWD"
+echo "BUILD_DIR is $1"
+echo "CACHE_DIR is $2"
