@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Usage: bin/compile <build-dir> <cache-dir>
+
+cat <<EOF
+---
+addons:
+
+config_vars:
+
+default_process_types:
+
+EOF

@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Usage: bin/compile <build-dir> <cache-dir>
+
+if [[ -f $1/server/nginx.conf.erb ]]; then
+  echo "Nginx Exists"
+  exit 0
+else 
+  echo "Nginx Conf Not found"
+  exit 1
+fi
